@@ -1,92 +1,60 @@
-# Smart Work AI
+AI Workplace Productivity Assistant
 
-Build a modern, responsive SaaS web application called AI Workplace Productivity Assistant.
+Project Overview
 
-Core Requirement
+AI Workplace Productivity Assistant is a modern, responsive SaaS-style web application designed to help professionals improve workplace productivity using AI.
 
-This must be a real AI-powered frontend application. All generated emails, schedules, summaries, insights and recommendations must be dynamically generated from the user's input using AI.
+The application provides three main AI-powered tools:
 
-Do not use generic, hard-coded, predefined or placeholder AI responses. Every output must be specific to the information entered by the user.
+Smart Email Generator – creates professional, personalised emails based on the user's purpose, key points, recipient and selected tone.
 
-Design
+AI Task Planner – organises user-provided tasks into personalised daily or weekly schedules and helps prioritise them.
 
-Modern professional SaaS dashboard
+AI Research Assistant – summarises research topics or accessible online content provided through a URL and generates key insights and recommendations.
 
-Light grey and dark charcoal/black colour palette
+The application is designed as a frontend-only prototype. It does not use a custom backend, database, authentication system or persistent data storage.
 
-Clean cards, subtle borders and rounded corners
-
-Responsive desktop, tablet and mobile design
-
-Left sidebar navigation
-
-Sidebar
-
-Dashboard
+Features Implemented
 
 Smart Email Generator
 
-AI Task Planner
+Email purpose and topic input
 
-AI Research Assistant
+Recipient input
 
-Settings
+Key points input
 
-Smart Email Generator
+Formal, Friendly and Persuasive tone options
 
-User enters:
+Dynamic AI-generated email content
 
-Email purpose
+Editable AI output
 
-Recipient
-
-Key points
-
-Tone: Formal, Friendly or Persuasive
-
-AI generates a complete, personalised professional email based on the user's input.
-
-Output must be editable and include:
-
-Copy
-
-Edit
-
-Regenerate
+Copy and regenerate actions
 
 AI Task Planner
 
-User enters their actual tasks and selects:
+Daily and weekly planning options
 
-Daily or Weekly schedule
+User-defined task input
 
-Priority: High, Medium or Low
+High, Medium and Low priority levels
 
-AI analyses the submitted tasks and generates a personalised schedule with:
+AI-generated personalised schedules
 
-Task
+Suggested times and task ordering
 
-Priority
+Editable generated schedule
 
-Suggested time
-
-Recommended order
-
-Brief reasoning where useful
-
-The schedule must be editable.
+Regenerate functionality
 
 AI Research Assistant
 
-Allow users to:
+Research topic/question input
 
-Enter a research topic/question, OR
+URL input for accessible online content
 
-Paste a URL to an article or publicly accessible online content
-
-AI should generate content specifically based on the submitted topic or accessible URL, including:
-
-Summary
+AI-generated summaries
 
 Key insights
 
@@ -94,52 +62,94 @@ Important findings
 
 Practical recommendations
 
-Do not display generic research responses unrelated to the user's input.
+Editable AI output
 
-AI Output
+Regenerate functionality
 
-Show a clear loading state while AI is generating
+User Interface
 
-Make all AI outputs editable
+Modern SaaS dashboard
 
-Include Regenerate functionality
+Responsive design
 
-Clearly distinguish user input from AI-generated output
+Sidebar navigation
 
-Handle empty, invalid or unsupported input gracefully
+Light grey and dark visual theme
 
-Technical Scope
+Dashboard overview
 
-Create a frontend-only application with no custom backend, database, authentication or persistent data storage.
+Cards and structured AI output sections
 
-Do not create hard-coded AI responses. Use Lovable's available AI functionality/integration to generate responses dynamically from user input.
+Loading and empty states
 
-Do not store user prompts or generated results after the session.
+Responsible AI disclaimer
 
-Responsible AI Disclaimer
+Technologies and Tools Used
 
-Display:
-“AI-generated content may contain errors. Review and verify important information before using or sharing it.”
+Lovable – application development and UI generation
 
-Focus on a polished, functional AI productivity experience rather than a static mockup.
+React – frontend application framework
 
-This project was built with [Lovable](https://lovable.dev).
+TypeScript – type-safe application development
 
-## Build with Lovable
+Tailwind CSS – responsive styling and UI design
 
-Continue developing this project in the [Lovable editor](https://lovable.dev/projects/c21d5bc7-3dd6-485c-a320-3e94a6441c8f).
+AI integration – dynamic generation of emails, schedules, summaries, insights and recommendations
 
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: every change made in Lovable is committed straight to this repository.
-- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
+Markdown – project documentation
 
-## Development
+The exact technology versions may vary depending on the Lovable project environment.
 
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
+Setup Instructions
 
-```sh
-git clone <this-repository-url>
-cd <repository-name>
-npm i
-npm run dev
-```
+1. Open the Project
+
+Open the project in Lovable and allow the project dependencies to install automatically.
+
+2. Configure AI
+
+Ensure the AI functionality available in the Lovable project is connected and configured according to the project's AI integration requirements.
+
+The application should generate responses dynamically from user input rather than using hard-coded or generic responses.
+
+3. Run the Application
+
+Use the development/preview option provided by Lovable to launch the application.
+
+4. Test the Features
+
+Test each section using your own inputs:
+
+Open Smart Email Generator and enter an email purpose, recipient and key points.
+
+Select a tone and generate the email.
+
+Open AI Task Planner, enter several tasks and select Daily or Weekly.
+
+Set task priorities and generate a personalised schedule.
+
+Open AI Research Assistant and enter a research question or accessible URL.
+
+Generate the summary, insights and recommendations.
+
+5. Data and Privacy
+
+This project is intended to operate without a custom backend or persistent database.
+
+User inputs and AI-generated outputs should not be permanently stored by the application.
+
+Responsible AI
+
+The application displays the following disclaimer:
+
+AI-generated content may contain errors. Review and verify important information before using or sharing it.
+
+Users should verify important information, particularly research findings, recommendations and workplace communications, before relying on or sharing AI-generated content.
+
+Author
+
+Author: Florence Dimakatso Mosolodi
+
+Project: AI Workplace Productivity Assistant
+
+Purpose: AI-powered workplace productivity and automation
